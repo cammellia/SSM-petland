@@ -1,0 +1,54 @@
+.main{
+    width: 100%;
+    height: 1500px;
+    position: relative;
+}
+.bgup{
+    width: 100%;
+}
+.info{
+    width: 100%;
+    height: 360px;
+    position: relative;
+    background-color: #dadada;
+}
+.photo{
+    width: 23%;
+    position: absolute;
+    border: 15px solid white;
+    left: 20%;
+    top:5%;
+    float: left;
+}
+.information{
+    width: 30%;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+}
+.adoption{
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #a3d356;
+    padding: 10px 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.adoption:hover{
+    background: #5ab25a;
+}
+.help{
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #ee7435;
+    padding: 10px 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.help:hover{
+    background: #e16225;
+}
